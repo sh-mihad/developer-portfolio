@@ -1,0 +1,32 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+
+.first-secton{
+    display: flex;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    
+    
+}
+.first-section-div{
+    width:50%;
+    margin: 0%;
+    align-items: center;
+    padding: 10px 40px;
+    
+}
+.hire-button{
+    background-image: linear-gradient(red, yellow);
+}
+.jankar-img{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
