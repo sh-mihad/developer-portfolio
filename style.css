@@ -22,11 +22,21 @@ h1{
     
 }
 .hire-button{
-    background-image: linear-gradient(red, yellow);
+    background-image: linear-gradient(to right, red,orange);
+    font-weight: 400;
 }
 .jankar-img{
     display: block;
     margin-left:auto;
     margin-right: auto;
     margin-top: 10px;
+}
+.hire-button{
+    padding:10px 40px;
+    border: none;
+}
+.hire-anchor{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
 }
