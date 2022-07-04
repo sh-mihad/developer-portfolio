@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    padding: 0;
+    
     margin: 0%;
 }
 h1{
@@ -57,4 +57,35 @@ h1{
 .about-sec-div p{
     padding:0px 20px 20px 0px;
 }
+
+/*Experiance Section*/
+.experince{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left bottom;
+   margin: 150px 0px;
+}
+.ex-main-div{
+    display: flex;
     
+}
+.ex-child-div{
+    width:40%;
+    margin: auto;
+    height:350px;
+    padding: 20px 30px;
+    box-shadow:10px 10px 20px 10px grey;
+    
+  
+   
+}
+.ex-child-div h1{
+    font-size:40px;
+    
+}
+.left-div{
+    border-left: solid 7px blue;
+}
+.right-div{
+    border-left: solid 7px orangered;
+} 
